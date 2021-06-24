@@ -21,9 +21,14 @@ Una ruta absoluta e,pieza con http://...bla bla
 
 No es buena idea poner teléfonos o email en frontend escrito tal cuel en html pq los buscarán para spam.
 
-target le indica al enlace donde tiene q abrir.
+target le indica al enlace donde tiene q abrir. El destino.
 rel tienen palabras claves q t dice el tipo de relacion con la pagina web a la que hace referencia el enlace.
 - no follow, le dice a los motores de búsquedas no sigas
 - noopener ... ?¿
 
 atajo para mover todo el bloque deleccinado en html: seleccionas el párrafo y apretas ALT + la flecha del teclado.
+
+
+Si un link (a) le pongo un target "marco" abrirá enl link en un iframe con id=marco y name=marco, de esta manera abres una segunda pagina dentro del frame sin salir de la pestaña.
+
+Tablas: mejor trabajar con <thead>, <tbody> y <tfoot>
